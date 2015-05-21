@@ -45,15 +45,20 @@ class SingleLinkedList:
     # Method to insert data item at the index provided
     # Arg0 : index location to insert the data
     # Arg1 : data to be inserted in the list
+    # Raises IndexError when invalid index is provided
     def insert(self, index, data):
+
+        if index < 0 or index > self.size:
+            raise IndexError('Index out of bound')
+
         count = 0
         cur = self.head
 
         if index == 0:
-            self.insert_first(self, data)
+            self.insert_first(data)
             return
 
-        while count < index:
+        while count < index - 1:
             count += 1
             cur = cur.next
 
@@ -66,10 +71,11 @@ class SingleLinkedList:
     # Method to retrieve data at the provided index
     # Arg0 : index location in the list
     # Return : data element at the provided index
+    # Raises IndexError when invalid index is provided
     def get(self, index):
 
         if index < 0 or index >= self.size:
-            return None
+            raise IndexError('Index out of bound')
 
         count = 0
         cur = self.head
@@ -79,6 +85,52 @@ class SingleLinkedList:
             cur = cur.next
 
         return cur.data
+
+    # Method to replace the provided item at the desired index location
+    # Arg0 : index location in the list
+    # Arg1 : data element to be replaced
+    # Raises IndexError when invalid index is provided
+    def replace(self, index, data):
+
+        if index < 0 or index >= self.size:
+            raise IndexError('Index out of bound')
+
+        count = 0
+        cur = self.head
+
+        while count < index:
+            count += 1
+            cur = cur.next
+
+        cur.data = data
+        return
+
+    # Method to remove the data element at the provided location
+    # Arg0 : index location in the list
+    # Return : data element that was removed from the list
+    # Raises IndexError when invalid index is provided
+    def remove(self, index):
+
+        if index < 0 or index >= self.size:
+            raise IndexError('Index out of bound')
+
+        if index == 0:
+            data = self.head.data
+            self.head = self.head.next
+            self.size -= 1
+            return data
+
+        count = 0
+        cur = self.head
+
+        while count < index - 1:
+            count += 1
+            cur = cur.next
+
+        data = cur.next.data
+        cur.next = cur.next.next
+        self.size -= 1
+        return data
 
     # Method to retrieve the size of the list
     # Return : size of the list
