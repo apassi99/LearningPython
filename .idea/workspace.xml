@@ -26,19 +26,33 @@
       <file leaf-file-name="SingleLinkedList.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
-              <folding />
+            <state line="47" column="4" selection-start="1349" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="2175">
+              <folding>
+                <marker date="1432231707000" expanded="true" signature="2575:2834" placeholder="..." />
+                <marker date="1432231707000" expanded="true" signature="3083:3560" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleLinkedListTest.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SingleLinkedListTest.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingleLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="30" selection-start="3685" selection-end="3685" vertical-scroll-proportion="2.5853658" vertical-offset="0" max-vertical-offset="1965">
+            <state line="33" column="39" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
+                <marker date="1432231814000" expanded="true" signature="227:4248" placeholder="..." />
+                <marker date="1432231814000" expanded="true" signature="351:876" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVLTree.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AVLTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="63" selection-start="1692" selection-end="1692" vertical-scroll-proportion="1.4442568" vertical-offset="0" max-vertical-offset="2940">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,6 +70,7 @@
         <option value="$PROJECT_DIR$/Node.py" />
         <option value="$PROJECT_DIR$/SingleLinkedList.py" />
         <option value="$PROJECT_DIR$/SingleLinkedListTest.py" />
+        <option value="$PROJECT_DIR$/AVLTree.py" />
       </list>
     </option>
   </component>
@@ -373,10 +388,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24628615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19077902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3419355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -441,14 +456,20 @@
     <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="29" selection-start="365" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
-          <folding />
+          <folding>
+            <marker date="1432231707000" expanded="true" signature="2575:2834" placeholder="..." />
+            <marker date="1432231707000" expanded="true" signature="3083:3560" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="38" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
+          <folding>
+            <marker date="1432231707000" expanded="true" signature="2575:2834" placeholder="..." />
+            <marker date="1432231707000" expanded="true" signature="3083:3560" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,19 +480,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/SingleLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2175">
-          <folding />
+        <state line="33" column="39" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+            <marker date="1432231814000" expanded="true" signature="227:4248" placeholder="..." />
+            <marker date="1432231814000" expanded="true" signature="351:876" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SingleLinkedListTest.py">
+    <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="30" selection-start="3685" selection-end="3685" vertical-scroll-proportion="2.5853658" vertical-offset="0" max-vertical-offset="1965">
+        <state line="47" column="4" selection-start="1349" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="2175">
           <folding>
-            <element signature="e#22#37#0" expanded="true" />
+            <marker date="1432231707000" expanded="true" signature="2575:2834" placeholder="..." />
+            <marker date="1432231707000" expanded="true" signature="3083:3560" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVLTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="63" selection-start="1692" selection-end="1692" vertical-scroll-proportion="1.4442568" vertical-offset="0" max-vertical-offset="2940">
+          <folding />
         </state>
       </provider>
     </entry>
