@@ -63,6 +63,9 @@ class AVLTree:
 
         return self.__contains_helper(self.root, data)
 
+    # Method to remove the specified data from the tree
+    # Arg0 : data item to be removed
+    # Raises InvalidArgumentException when invalid data is provided
     def remove(self, data):
 
         if data is None:
@@ -70,6 +73,11 @@ class AVLTree:
 
         self.__remove_helper(self.root, data)
 
+    # Helper method to recursively remove specified data element
+    # in the tree
+    # Arg0 : AVLTreeNode from where to start finding the data element
+    # Arg0 : data element to be removed
+    # Return : AVLTreeNode to reorganize the tree
     def __remove_helper(self, node, data):
 
         if node is None:
@@ -85,7 +93,9 @@ class AVLTree:
         node.height = max(self.__height(node.left), self.__height(node.right)) + 1
         return self.__perform_rotation(node)
 
-
+    # Helper method to remove the specified AVLTreeNode from the tree
+    # Arg0 : node to be removed
+    # Return : node to reorganize the tree
     def __remove_helper(self, node):
 
         if node is None:
