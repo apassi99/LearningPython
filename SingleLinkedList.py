@@ -29,7 +29,7 @@ class SingleLinkedList:
         cur = self.head
         list_str = ""
         while cur:
-            list_str = list_str + cur.str()
+            list_str = list_str + str(cur)
             cur = cur.next
         return list_str
 
