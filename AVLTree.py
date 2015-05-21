@@ -92,10 +92,13 @@ class AVLTree:
             return node
 
         if node.left is None and node.right is None:
+            self.size -= 1
             return None
         elif node.left is None and node.right is not None:
+            self.size -= 1
             return node.right
         elif node.left is not None and node.right is None:
+            self.size -= 1
             return node.left
         else:
             copy_data = self.__find_min(node.right)
