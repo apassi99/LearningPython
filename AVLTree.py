@@ -63,6 +63,59 @@ class AVLTree:
 
         return self.__contains_helper(self.root, data)
 
+    def remove(self, data):
+
+        if data is None:
+            raise InvalidArgumentException("data is null")
+
+        self.__remove_helper(self.root, data)
+
+    def __remove_helper(self, node, data):
+
+        if node is None:
+            return node
+
+        if data > node.data:
+            node.right = self.__remove_helper(node.right, data)
+        elif data < node.data:
+            node.left = self.__remove_helper(node.left, data)
+        else:
+            self.__remove_helper(node)
+
+        node.height = max(self.__height(node.left), self.__height(node.right)) + 1
+        return self.__perform_rotation(node)
+
+
+    def __remove_helper(self, node):
+
+        if node is None:
+            return node
+
+        if node.left is None and node.right is None:
+            return None
+        elif node.left is None and node.right is not None:
+            return node.right
+        elif node.left is not None and node.right is None:
+            return node.left
+        else:
+            copy_data = self.__find_min(node.right)
+            node = self.__remove_helper(node, copy_data)
+            node.data = copy_data
+            return node
+
+
+    # Helper method to iteratively find the minimum
+    # in the AVLTree
+    # Arg0 : AVLTree node
+    # Return : minimum data element
+    def __find_min(self, node):
+
+        cur_node = node
+        while cur_node.left is not None:
+            cur_node = cur_node.left
+
+        return cur_node.data
+
     # Helper method to recursively search the provided data
     # item in the AVLTree
     # Arg0 : AVLTree node
