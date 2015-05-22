@@ -26,7 +26,7 @@
       <file leaf-file-name="SingleLinkedList.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="4" selection-start="1349" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="2175">
+            <state line="134" column="4" selection-start="3566" selection-end="3639" vertical-scroll-proportion="0.0" vertical-offset="1583" max-vertical-offset="2175">
               <folding />
             </state>
           </provider>
@@ -35,21 +35,36 @@
       <file leaf-file-name="SingleLinkedListTest.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingleLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="39" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+            <state line="49" column="61" selection-start="1573" selection-end="1626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
-                <marker date="1432231814000" expanded="true" signature="227:4248" placeholder="..." />
-                <marker date="1432231814000" expanded="true" signature="351:876" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVLTree.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AVLTree.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AVLTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="55" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.13851352" vertical-offset="923" max-vertical-offset="3930">
-              <folding />
+            <state line="2" column="40" selection-start="54" selection-end="63" vertical-scroll-proportion="54.807693" vertical-offset="1455" max-vertical-offset="4050">
+              <folding>
+                <marker date="1432263576000" expanded="true" signature="894:8251" placeholder="..." />
+                <marker date="1432263576000" expanded="true" signature="1224:1249" placeholder="..." />
+                <marker date="1432263576000" expanded="true" signature="4828:5368" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVLTreeTest.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AVLTreeTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="26" selection-start="1628" selection-end="1628" vertical-scroll-proportion="1.0360577" vertical-offset="334" max-vertical-offset="900">
+              <folding>
+                <element signature="e#22#37#0" expanded="true" />
+                <marker date="1432267455000" expanded="true" signature="131:1630" placeholder="..." />
+                <marker date="1432267455000" expanded="true" signature="1391:1630" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +83,7 @@
         <option value="$PROJECT_DIR$/SingleLinkedList.py" />
         <option value="$PROJECT_DIR$/SingleLinkedListTest.py" />
         <option value="$PROJECT_DIR$/AVLTree.py" />
+        <option value="$PROJECT_DIR$/AVLTreeTest.py" />
       </list>
     </option>
   </component>
@@ -140,7 +156,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest SingleLinkedListTest.test_insert">
+  <component name="RunManager" selected="Python tests.Unittest AVLTreeTest.test_insert">
     <configuration default="false" name="Unittest SingleLinkedListTestSize.test_size" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,6 +221,30 @@
       <module name="LearningPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SingleLinkedListTest.py" />
       <option name="CLASS_NAME" value="SingleLinkedListTest" />
+      <option name="METHOD_NAME" value="test_insert" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest AVLTreeTest.test_insert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LearningPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AVLTreeTest.py" />
+      <option name="CLASS_NAME" value="AVLTreeTest" />
       <option name="METHOD_NAME" value="test_insert" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
@@ -338,16 +378,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTestSize.test_size" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTest.test_insert_first" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTest.test_insert" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest AVLTreeTest.test_insert" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTest.test_insert" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTest.test_insert_first" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTestSize.test_size" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest AVLTreeTest.test_insert" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTest.test_insert" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTest.test_insert_first" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SingleLinkedListTestSize.test_size" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +428,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19077902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28387097" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3419355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -445,8 +487,13 @@
           <line>53</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AVLTreeTest.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -471,28 +518,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SingleLinkedListTest.py">
+    <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="39" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
-          <folding>
-            <element signature="e#22#37#0" expanded="true" />
-            <marker date="1432231814000" expanded="true" signature="227:4248" placeholder="..." />
-            <marker date="1432231814000" expanded="true" signature="351:876" placeholder="..." />
-          </folding>
+        <state line="134" column="4" selection-start="3566" selection-end="3639" vertical-scroll-proportion="0.0" vertical-offset="1583" max-vertical-offset="2175">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SingleLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/SingleLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="4" selection-start="1349" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="2175">
-          <folding />
+        <state line="49" column="61" selection-start="1573" selection-end="1626" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1965">
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVLTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="55" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.13851352" vertical-offset="923" max-vertical-offset="3930">
-          <folding />
+        <state line="2" column="40" selection-start="54" selection-end="63" vertical-scroll-proportion="54.807693" vertical-offset="1455" max-vertical-offset="4050">
+          <folding>
+            <marker date="1432263576000" expanded="true" signature="894:8251" placeholder="..." />
+            <marker date="1432263576000" expanded="true" signature="1224:1249" placeholder="..." />
+            <marker date="1432263576000" expanded="true" signature="4828:5368" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVLTreeTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="26" selection-start="1628" selection-end="1628" vertical-scroll-proportion="1.0360577" vertical-offset="334" max-vertical-offset="900">
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+            <marker date="1432267455000" expanded="true" signature="131:1630" placeholder="..." />
+            <marker date="1432267455000" expanded="true" signature="1391:1630" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

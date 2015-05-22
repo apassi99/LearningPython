@@ -40,6 +40,11 @@ class AVLTree:
         self.root = None
         self.size = 0
 
+    # Method to retrieve the size of the AVLTree
+    # Return : size of the tree
+    def size(self):
+        return self.size
+
     # Method to insert data in the AVL TREE
     # Arg0 : data to be inserted
     # Raises InvalidArgumentException when invalid data is provided
@@ -49,7 +54,7 @@ class AVLTree:
         if data is None:
             raise InvalidArgumentException("data is null")
 
-        self.__insert_helper(self.root, data)
+        self.root = self.__insert_helper(self.root, data)
         return
 
     # Method to search provided data in the AVLTree
@@ -71,7 +76,7 @@ class AVLTree:
         if data is None:
             raise InvalidArgumentException("data is null")
 
-        self.__remove_helper(self.root, data)
+        self.root = self.__remove_helper(self.root, data)
 
     # Helper method to recursively remove specified data element
     # in the tree
@@ -88,15 +93,17 @@ class AVLTree:
         elif data < node.data:
             node.left = self.__remove_helper(node.left, data)
         else:
-            self.__remove_helper(node)
+            return self.__remove_node_helper(node)
 
         node.height = max(self.__height(node.left), self.__height(node.right)) + 1
-        return self.__perform_rotation(node)
+        node = self.__perform_rotation(node)
+
+        return node
 
     # Helper method to remove the specified AVLTreeNode from the tree
     # Arg0 : node to be removed
     # Return : node to reorganize the tree
-    def __remove_helper(self, node):
+    def __remove_node_helper(self, node):
 
         if node is None:
             return node
@@ -165,7 +172,8 @@ class AVLTree:
             raise InvalidArgumentException("data already present")
 
         node.height = max(self.__height(node.left), self.__height(node.right)) + 1
-        return self.__perform_rotation(node)
+        node = self.__perform_rotation(node)
+        return node
 
     # Helper method that performs a rotation depending on the
     # height of the sub tree node provided
