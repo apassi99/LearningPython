@@ -59,11 +59,9 @@
       <file leaf-file-name="AVLTreeTest.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AVLTreeTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="26" selection-start="1628" selection-end="1628" vertical-scroll-proportion="1.0360577" vertical-offset="334" max-vertical-offset="900">
+            <state line="78" column="51" selection-start="2545" selection-end="2545" vertical-scroll-proportion="2.7043269" vertical-offset="45" max-vertical-offset="1305">
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
-                <marker date="1432267455000" expanded="true" signature="131:1630" placeholder="..." />
-                <marker date="1432267455000" expanded="true" signature="1391:1630" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -547,11 +545,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AVLTreeTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="26" selection-start="1628" selection-end="1628" vertical-scroll-proportion="1.0360577" vertical-offset="334" max-vertical-offset="900">
+        <state line="78" column="51" selection-start="2545" selection-end="2545" vertical-scroll-proportion="2.7043269" vertical-offset="45" max-vertical-offset="1305">
           <folding>
             <element signature="e#22#37#0" expanded="true" />
-            <marker date="1432267455000" expanded="true" signature="131:1630" placeholder="..." />
-            <marker date="1432267455000" expanded="true" signature="1391:1630" placeholder="..." />
           </folding>
         </state>
       </provider>
